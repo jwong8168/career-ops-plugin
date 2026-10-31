@@ -8,6 +8,22 @@ allowed-tools:
   - Write
   - WebSearch
   - Glob
+category: domain
+inputs:
+- type: user-prompt
+  required: true
+produces:
+- type: report
+- type: db-rows
+headless: false
+chains_with:
+- triage
+- evaluate
+tags:
+- career
+- scan
+- ats
+- interactive
 ---
 
 # Scan for Job Openings

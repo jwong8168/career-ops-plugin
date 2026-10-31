@@ -6,6 +6,18 @@ user-invocable: true
 allowed-tools:
   - Read
   - Glob
+category: domain
+inputs:
+- type: user-prompt
+  required: false
+produces:
+- type: report
+headless: false
+chains_with: []
+tags:
+- career
+- help
+- interactive
 ---
 
 # career-ops Help

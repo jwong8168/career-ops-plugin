@@ -9,6 +9,22 @@ allowed-tools:
   - Glob
   - WebSearch
   - WebFetch
+category: domain
+inputs:
+- type: user-prompt
+  required: true
+produces:
+- type: report
+- type: vault-note
+headless: false
+chains_with:
+- apply
+- tailor-resume
+- research
+tags:
+- career
+- evaluation
+- interactive
 ---
 
 # Evaluate a Job Posting

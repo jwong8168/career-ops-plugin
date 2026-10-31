@@ -9,6 +9,20 @@ allowed-tools:
   - Write
   - Glob
   - WebFetch
+category: domain
+inputs:
+- type: user-prompt
+  required: true
+produces:
+- type: report
+headless: false
+chains_with:
+- evaluate
+- tailor-resume
+tags:
+- career
+- application
+- interactive
 ---
 
 # Application Form Assistant

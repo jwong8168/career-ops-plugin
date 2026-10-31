@@ -7,6 +7,21 @@ allowed-tools:
   - Read
   - Write
   - Glob
+category: domain
+inputs:
+- type: user-prompt
+  required: false
+produces:
+- type: report
+- type: db-rows
+headless: false
+chains_with:
+- compare
+- evaluate
+tags:
+- career
+- tracker
+- interactive
 ---
 
 # Application Tracker

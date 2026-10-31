@@ -8,6 +8,21 @@ allowed-tools:
   - Write
   - Glob
   - WebFetch
+category: triage
+inputs:
+- type: any
+  required: false
+produces:
+- type: report
+headless: false
+chains_with:
+- scan
+- evaluate
+tags:
+- career
+- triage
+- pipeline
+- interactive
 ---
 
 # Triage Pipeline

@@ -7,6 +7,21 @@ allowed-tools:
   - Read
   - Write
   - Glob
+category: domain
+inputs:
+- type: user-prompt
+  required: true
+produces:
+- type: report
+headless: false
+chains_with:
+- apply
+- evaluate
+tags:
+- career
+- resume
+- ats
+- interactive
 ---
 
 # Tailor Your Resume

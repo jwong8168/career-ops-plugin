@@ -8,6 +8,21 @@ allowed-tools:
   - Write
   - WebSearch
   - Glob
+category: domain
+inputs:
+- type: user-prompt
+  required: true
+produces:
+- type: report
+headless: false
+chains_with:
+- research
+- track
+tags:
+- career
+- outreach
+- linkedin
+- interactive
 ---
 
 # Draft Outreach

@@ -9,6 +9,21 @@ allowed-tools:
   - WebSearch
   - WebFetch
   - Glob
+category: domain
+inputs:
+- type: user-prompt
+  required: true
+produces:
+- type: report
+- type: vault-note
+headless: false
+chains_with:
+- evaluate
+- outreach
+tags:
+- career
+- research
+- interactive
 ---
 
 # Company Research
